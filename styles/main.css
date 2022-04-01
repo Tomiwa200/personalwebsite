@@ -311,6 +311,7 @@ header {
         
       header {
           display:block;
+          position:relative;
       
       }
  
@@ -362,7 +363,7 @@ header {
        .projects-container {
          
        }
-       .projects-container {
+       .project-container {
          margin: auto;
          align-items:center;
        }
