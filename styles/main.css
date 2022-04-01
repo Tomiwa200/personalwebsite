@@ -309,21 +309,28 @@ header {
 
   @media  screen and (max-width: 720px) {
         
-  
-  /* header nav ul li {
-     top: 86px;
-     left: ;
-     width: ;
+      header {
+      position: relative;
+      }
+ 
+      
+      
+      
+      
+      
+      header nav ul li {
+         display:block;
     }
     
     
     
     header nav ul {
         
-    flex-direction: column;
-      
-        
-        
+    position: absolute;
+      position: fixed;
+      top: 86px;
+       left: 12px;
+       width: 30%;
         transform: translateX(-120%);
         transition: transform 6s ease-in; 
       }  
@@ -331,11 +338,11 @@ header {
         
    .burger-menu {
      display: block;
-   } */ 
+   } 
        .hero{
          max-width: 30rem;
          flex-direction: column;
-         
+         margin-left:3rem;
        }
        .hero-child {
          width: 20rem;
@@ -348,8 +355,8 @@ header {
        .projects-container {
          
        }
-       .project-container {
-         margin-left: -17em;
+       .projects-container {
+         margin-left: 18rem;
        }
 
        .project-card {
