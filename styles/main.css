@@ -107,7 +107,7 @@ header {
     align-items: center;
     justify-content: center ;
     gap: 2.5rem;
-    min-height: 85%;
+    min-height: 100%;
     max-width: 68.75rem;  
      margin-left: -1rem;
 }
@@ -175,7 +175,7 @@ header {
     margin: auto;
     text-align: center;
     margin-top: 2.5rem;
-    min-height: 85%;
+    min-height: 100%;
 }
 .icon-card {
     background-color: #fff;
@@ -197,7 +197,7 @@ header {
 .projects {
     background-color: rgb(67, 100, 196);
     padding: 32px 0;
-    min-height: 85%;
+    min-height: 100%;
     padding-bottom: 6em;
 
   }
@@ -241,7 +241,7 @@ header {
 
 .contact {
     margin-top: 2rem;
-    min-height: 85%;
+    min-height: 100%;
     padding-bottom: 3em;
   }
   
@@ -310,6 +310,7 @@ header {
   @media  screen and (max-width: 720px) {
         
       header {
+          display:block;
       position: relative;
       }
  
@@ -338,7 +339,12 @@ header {
         
    .burger-menu {
      display: block;
-   } 
+   }
+      
+      nav ul.show {
+          transform :translateX(0);
+      }
+      
        .hero{
          max-width: 30rem;
          flex-direction: column;
