@@ -362,7 +362,7 @@ header {
        .projects-container {
          
        }
-       .projects {
+       .projects-container {
          margin: auto;
          align-items:center;
        }
