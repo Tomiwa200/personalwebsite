@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+:root {
+    --font-family: "Roboto", sans-serif;
+    --normal-font: 400;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --bg-color: #fcfcfc;
+    --primary-color: #4756df;
+    --secondary-color: #ff7235;
+    --primary-shadow: #8b8eaf;
+    --secondary-shadow: #a17a69;
+    --bottom-margin: 0.5rem;
+    --bottom-margin-2: 1rem;
+    --line-height: 1.7rem;
+    --transition: 0.3s;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+    
+    
+}
+
+body {
+    background-color: rgb(73, 146, 175);
+    font-family: "Roboto" Arial, Helvetica, sans-serif;
+    
+}
+      
+    
+
+   nav > ul {
+   display: inline;  
+    padding: 0px;
+}
+
+    nav > ul  > li {
+    display: inline-block;
+    padding: 0px;
+    list-style-image: none;
+    margin: 0 10px 0 10px;
+    
+    
+} 
+
+nav a:link, nav a:visited{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+ nav a:hover {
+     color: blue;
+     background-color: #fff;
+     
+}
+
+header {
+    background-color: rgb(24, 3, 61);
+    
+    padding: 0 ;
+   
+}
+
+ header nav > ul > li {
+  box-shadow: 0 2px 15px 2px ;
+  font-weight: bold;
+  list-style-type: none;
+  padding: 6px;
+  margin: 8px;
+}
+
+
+ 
+
+.burger-menu {
+  color: #fff;
+  font-size: 2rem;
+  border: 0;
+  background-color:  transparent;
+  cursor:pointer;
+  display: none;
+}
+
+  
+ 
+  footer {
+    background-color: rgb(83, 50, 139);
+}
+
+/* about me design */
+.hero {
+    
+    margin: auto;
+     padding: 4em;
+     display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 2.5rem;
+    min-height: 85%;
+    max-width: 68.75rem;  
+     margin-left: -1rem;
+}
+.hero-child {
+    
+    
+    padding: 0.625rem;
+    border-radius: 10px;
+    box-shadow: 0px 2px 15px 3px ;
+    margin-top: 2rem;
+  width: 20rem;
+}
+.banner-1 {
+    height: 20.5rem;
+    width: 20.5rem;
+}
+
+ .hero-child p {
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
+    
+}
+
+.more-about {
+    background-color: rgb(24, 3, 61);
+    padding: 1rem 6rem;
+    color: #fff;
+    
+  }
+  
+  .more-about h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+  }
+  
+  .more-about p {
+    
+    padding: 0.4rem;
+  }
+
+   .goals {
+    font-weight: 500;
+    margin-top: 1rem;
+  }
+  .resume {
+    color: blue;
+    text-decoration: none;
+    background-color: #fff;
+    box-shadow: 0 2px 8px  2px 5px;
+    font-weight: 700;
+}
+/*skills design*/
+.skills-header {
+    margin-bottom: 1.25rem;
+}
+
+
+
+.skills-wrapper img  {
+    padding: 1.25rem;
+}
+
+.skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+    min-height: 85%;
+}
+.icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px 4px ;
+    padding: 20px;
+    margin: 10px;
+
+  }
+
+  .icon {
+     max-width: 20%;
+    width: 5.25rem;
+  height:  5.25rem;
+
+}
+
+
+/*projects design*/
+.projects {
+    background-color: rgb(67, 100, 196);
+    padding: 32px 0;
+    min-height: 85%;
+    padding-bottom: 6em;
+
+  }
+
+  .project-pic {
+    width: 60%;
+    height: 65%;
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+  }
+  
+  .projects-title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .project-container {
+    text-align: center;
+    width: 26.875rem;
+    padding: 1rem;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 5px;
+    margin: 10px;
+    
+    
+  }
+  
+  
+  
+/*contact design*/
+
+
+.contact {
+    margin-top: 2rem;
+    min-height: 100%;
+    padding-bottom: 3em;
+  }
+  
+  .contact h2 {
+    text-align: center;
+    margin-bottom: var(--bottom-margin-2);
+  }
+  
+  .contact-form-container {
+    max-width: 50%;
+    width: 20.75rem;
+    margin: 0 auto;
+    padding: 0.938rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px ;
+  }
+
+  .contact-form-container label {
+    line-height: 2.7em;
+    font-weight: var(--bold-font);
+    
+  }
+  
+  .contact-form-container textarea {
+    min-height: 6.25rem;
+    font-size: 12px;
+  }
+  
+  .contact-form-container .input-field {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 2px ;
+    font-size: 0.875rem;
+    outline: none;
+    padding-left: 8px;
+  }
+
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 2px ;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: var(--bold-font);
+    transition: var(--transition);
+  }
+
+  .submit-btn:hover {
+    background-color: royalblue;
+    border: 2px solid var(--primary-color);
+    cursor: pointer;
+  }
+  .social {
+    height:2% ;
+     width: 2%;
+     margin: 6px;
+    
+  }
+      
+
+
+  @media  screen and (max-width: 720px) {
+        
+  
+  header nav ul li {
+    
+    display: block;
+    
+    background-color:darkslategray;
+     
+    
+    }
+    header {
+      display: block;
+    }
+    
+    
+    header > nav > ul {
+      position: absolute;
+      position: fixed;
+      top: 86px;
+       left: 12px;
+       width: 30%;
+       
+      transform: translateX(-120%);
+        transition: transform 0.5s ease-in; 
+      }  
+      
+        
+   .burger-menu {
+     display: block;
+   } 
+
+   nav ul.show {
+     transform: translateX(0)  ;
+   }
+
+       .hero{
+         max-width: 30rem;
+         flex-direction: column;
+         margin-left: 3rem;
+       }
+       .hero-child {
+         width: 20rem;
+       }
+
+       
+
+       
+       
+       .projects-container {
+         
+       }
+       .projects-container {
+         margin: auto;
+         align-items: center;
+       }
+
+       .project-card {
+         width: 7rem;
+       }
+  }
