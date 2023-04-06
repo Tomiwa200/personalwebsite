@@ -348,7 +348,7 @@ header {
    }
 
        .hero{
-         max-width: 30rem;
+         max-width: 10rem;
          flex-direction: column;
          margin-left: 2rem;
        }
