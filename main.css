@@ -350,7 +350,7 @@ header {
        .hero{
          max-width: 30rem;
          flex-direction: column;
-         margin-left: 3rem;
+         margin-left: 2rem;
        }
        .hero-child {
          width: 20rem;
